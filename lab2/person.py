@@ -29,7 +29,7 @@ class Person(object):
         self._salary = salary
         
     name = property(getName)
-    job = property(getJob, setJob)
+    job = property(getJob, s/home/ziller/Repos/CS2515_algo_data_structetJob)
     salary = property(getSalary, setSalary)
     
 def main():
