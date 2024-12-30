@@ -22,7 +22,7 @@ class Model(object):
 
     def getShape(self, shapeId):
 
-        return self._shapesDict[shapeId]
+        return self._shapesDict(shapeId)
 
     def getShape(self):
         return self._shapesDict.values()
